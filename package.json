@@ -17,5 +17,17 @@
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.12.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "overrides": {
+    "@babel/traverse": "7.23.2",
+    "cipher-base": "1.0.5",
+    "form-data": "2.5.4",
+    "json-schema": "0.4.0",
+    "jsprim": "2.0.2",
+    "loader-utils": "2.0.4",
+    "minimist": "1.2.8",
+    "pbkdf2": "3.1.3",
+    "sha.js": "2.4.12",
+    "jsonpath-plus": "10.3.0"
+  }
 }
